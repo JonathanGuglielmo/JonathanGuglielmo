@@ -1,0 +1,41 @@
+%box-service1 {
+    z-index: 2;
+    box-shadow: 0 10px 6px -6px #777;
+        &:hover {
+        transform: scale(1.1);
+    }
+}
+
+%box-service2 {
+    margin-right: 10em;
+    z-index: 2;
+    box-shadow: 0 10px 6px -6px #777;
+        &:hover {
+        transform: scale(1.1);
+    }
+}
+
+%flexbox1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+%flexbox2 {
+    display: flex;
+    justify-content: center;
+    background-color: nth($colores1, 1);
+}
+
+%flexbox3 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 768px;
+}
+
+%flexbox4 {
+    display: flex;
+    justify-content: center;
+    background-color: nth($colores1, 2);
+}

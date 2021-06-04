@@ -1,0 +1,10 @@
+@import '../functions/extends';
+/* Footer */
+
+.footer {
+    @extend %flexbox1;
+}
+
+ul {
+    list-style: none;
+}

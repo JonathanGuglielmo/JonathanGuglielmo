@@ -1,0 +1,30 @@
+@import '../base/variables';
+@import '../base/colors';
+
+/*  MENU  */
+
+header {
+    color: nth($colores1, 5); 
+    @extend %flexbox1;
+    background-color: $bg-color-lb;
+}
+.bg-light {
+    background-color: $bg-color-lb !important;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    color: nth($colores1, 5); 
+}
+
+.dropdown-menu {
+    background-color: $bg-color-lb;
+    border-color: $border-white;
+    color: nth($colores1, 5); 
+}

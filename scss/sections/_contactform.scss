@@ -1,0 +1,96 @@
+@import '../base/colors';
+
+/*Formulario de contacto*/
+
+.contact_form{ 
+    display: flex;
+    justify-content: center;
+    height: auto;;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: nth($colores1, 3); 
+    text-align: center;
+}
+
+input{
+    background-color: nth($colores1, 3);
+    width: 70em; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: nth($colores2, 2);
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+textarea{
+    background-color: nth($colores1, 3);
+    width: 70em; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: nth($colores2, 2);
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+label{
+    display: block; 
+    float: center;  
+}
+
+button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 4em;   
+    text-transform: uppercase;
+    background-color: nth($colores2, 2); 
+    border-color: nth($colores2, 2); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 7em;   
+    cursor: pointer;
+        p{
+        color: nth($colores1, 7);  
+        }
+    &:hover {
+    transform: scale(1.1);
+    background-color: nth($colores1, 2); 
+    }
+    
+}
+
+span{
+    color: nth($colores2, 2); 
+}
+
+.aviso{
+    font-size: 13px;  
+    color: black;  
+}
+
+::-webkit-input-placeholder {
+    color: nth($colores2, 3); 
+}
+
+::-webkit-textarea-placeholder {
+    color: nth($colores2, 3); 
+}
+
+.formulario input:focus{
+    outline:0;
+    border: 1px solid nth($colores2, 4); 
+}
+
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid nth($colores2, 5); ;
+}

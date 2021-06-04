@@ -1,0 +1,133 @@
+@media only screen and (min-width: 300px) and (max-width: 1120px) {
+
+    header {
+        display: grid;
+    }
+        
+    .navbar {
+        margin-top: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .navbar-light .navbar-toggler {
+        color: rgb(255 255 255);
+        border-color: rgb(255 255 255);
+    }
+    
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+    
+    button {
+        margin-top: 0;
+    }
+    
+    .navbar-toggler {
+        font-size: 0.8em;
+    }
+    
+    .carousel-indicators {
+        margin-bottom: -1em;
+    }
+    
+    .servicios2 {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+    }
+    
+    .servicios {
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+    }
+    
+    p {
+        font-size: 0.7em;
+    }
+    
+    h6 {
+        margin-top: 3em;
+    }
+    
+    h2, h6 {
+        font-size: 1.4em;
+    }
+    
+    
+    .dg-container {
+        height: auto;
+    }    
+    
+    .dg {
+        width: 100%;
+        margin-bottom: 0.7em;
+        display: flex;
+        height: auto;
+    }
+    
+    .dm-container {
+        height: auto;
+    } 
+    
+    .dm {
+        width: 100%;
+        margin-bottom: 0.7em;
+        display: flex;
+        height: auto;
+    }
+    
+    .dw-container {
+        height: auto;
+    }  
+    
+    .dw {
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    
+    .cm-container {
+        height: auto;
+    }    
+    
+    .cm {
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+    
+    .logo-img {
+        display: hidden;
+    }
+    
+    h1 {
+        padding-bottom: 3px;
+    }
+    
+    input {
+        width: 30em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+    
+    textarea {
+        width: 30em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+    }
+    
+    .footer-menu {
+        list-style: none;
+    }
+    
+    }
+    
