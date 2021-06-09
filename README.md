@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jonathan Javier Guglielmo</h1>
-<h3 align="center">Diseñador gráfico y desarrollador web desde Argentina</h3>
+<h3 align="center">Diseñador gráfico y desarrollador web - Argentina</h3>
 
 - 🔭 I’m currently working on **Shark Design**
 
