@@ -36,6 +36,15 @@ header {
     height: auto;
 }
 
+.navbar {
+    margin: auto;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    margin-left: -12px;
+}
+
+
 .navbar-light .navbar-nav .nav-link {
     display: inline-block;
     color: nth($colores1, 5); 
@@ -50,7 +59,7 @@ header {
     color: nth($colores1, 5); 
     body.dark & {
         background: nth($colores1, 6);
-        
+
     }
 }
 
