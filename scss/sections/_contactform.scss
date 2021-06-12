@@ -14,6 +14,7 @@
     text-align: center;
     body.dark & {
         background: nth($colores2, 3);
+    }
 }
 
 input{
@@ -43,6 +44,7 @@ textarea{
     padding-top: 15px; 
     body.dark & {
         background: nth($colores2, 3);
+    }
 }
 
 label{
