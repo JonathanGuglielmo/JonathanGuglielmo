@@ -207,6 +207,9 @@ header, .footer {
 body.dark #dw, body.dark #cm {
   background: black;
 }
+body.dark #dw h6, body.dark #cm h6 {
+  color: white;
+}
 body.dark #dw p, body.dark #cm p {
   color: #bbbbbb;
 }
@@ -226,6 +229,9 @@ body.dark #dw p, body.dark #cm p {
 }
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
+}
+body.dark #dm h2, body.dark #dg h2 {
+  color: black;
 }
 
 /* Carrouel de Imagenes */
@@ -246,6 +252,9 @@ header, .footer {
 body.dark #dw, body.dark #cm {
   background: black;
 }
+body.dark #dw h6, body.dark #cm h6 {
+  color: white;
+}
 body.dark #dw p, body.dark #cm p {
   color: #bbbbbb;
 }
@@ -266,6 +275,9 @@ body.dark #dw p, body.dark #cm p {
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
 }
+body.dark #dm h2, body.dark #dg h2 {
+  color: black;
+}
 
 /* Comunnity Manager */
 /*Formulario de contacto*/
@@ -284,10 +296,7 @@ body.dark .contact_form {
   background: #3f3f3f;
 }
 body.dark .contact_form h1 {
-  color: #bbbbbb;
-}
-body.dark .contact_form h1 p {
-  color: #bbbbbb;
+  color: white;
 }
 
 input {
@@ -304,6 +313,7 @@ input {
 }
 body.dark input {
   background: #3f3f3f;
+  border-color: white;
 }
 
 textarea {
@@ -321,6 +331,7 @@ textarea {
 }
 body.dark textarea {
   background: #3f3f3f;
+  border-color: white;
 }
 
 label {
@@ -348,6 +359,10 @@ label {
 .boton:hover {
   transform: scale(1.1);
   background-color: #eb8b8d;
+}
+body.dark .boton {
+  background: #474747;
+  border-color: white;
 }
 
 span {
@@ -377,6 +392,17 @@ span {
   border: 1px solid #97d848;
 }
 
+.formulario h1 {
+  display: flex;
+  justify-content: center;
+}
+body.dark .formulario p {
+  color: white;
+}
+body.dark .formulario h3 {
+  color: #bbbbbb;
+}
+
 header, .footer {
   display: flex;
   justify-content: space-around;
@@ -389,6 +415,9 @@ header, .footer {
 }
 body.dark #dw, body.dark #cm {
   background: black;
+}
+body.dark #dw h6, body.dark #cm h6 {
+  color: white;
 }
 body.dark #dw p, body.dark #cm p {
   color: #bbbbbb;
@@ -410,6 +439,9 @@ body.dark #dw p, body.dark #cm p {
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
 }
+body.dark #dm h2, body.dark #dg h2 {
+  color: black;
+}
 
 /* Diseño Gráfico */
 header, .footer {
@@ -424,6 +456,9 @@ header, .footer {
 }
 body.dark #dw, body.dark #cm {
   background: black;
+}
+body.dark #dw h6, body.dark #cm h6 {
+  color: white;
 }
 body.dark #dw p, body.dark #cm p {
   color: #bbbbbb;
@@ -445,6 +480,9 @@ body.dark #dw p, body.dark #cm p {
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
 }
+body.dark #dm h2, body.dark #dg h2 {
+  color: black;
+}
 
 /* Diseño Multimedia */
 header, .footer {
@@ -459,6 +497,9 @@ header, .footer {
 }
 body.dark #dw, body.dark #cm {
   background: black;
+}
+body.dark #dw h6, body.dark #cm h6 {
+  color: white;
 }
 body.dark #dw p, body.dark #cm p {
   color: #bbbbbb;
@@ -480,6 +521,9 @@ body.dark #dw p, body.dark #cm p {
 body.dark #dg, body.dark #dm {
   background: #a8a8a8;
 }
+body.dark #dg h2, body.dark #dm h2 {
+  color: black;
+}
 
 /* Diseño Web */
 header, .footer {
@@ -494,6 +538,9 @@ header, .footer {
 }
 body.dark #cm, body.dark #dw {
   background: black;
+}
+body.dark #cm h6, body.dark #dw h6 {
+  color: white;
 }
 body.dark #cm p, body.dark #dw p {
   color: #bbbbbb;
@@ -515,10 +562,34 @@ body.dark #cm p, body.dark #dw p {
 body.dark #dg, body.dark #dm {
   background: #a8a8a8;
 }
+body.dark #dg h2, body.dark #dm h2 {
+  color: black;
+}
 
 /* Footer */
+.footer {
+  margin-top: 2em;
+}
+.footer .container-fluid {
+  display: flex;
+}
+
+.footer-menu {
+  width: 50%;
+}
+
 ul {
+  display: flex;
+  justify-content: space-around;
   list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+body.dark .derechos p {
+  color: white;
 }
 
 /* Ajustes generales */
@@ -586,6 +657,9 @@ header, .footer {
 body.dark #cm, body.dark #dw {
   background: black;
 }
+body.dark #cm h6, body.dark #dw h6 {
+  color: white;
+}
 body.dark #cm p, body.dark #dw p {
   color: #bbbbbb;
 }
@@ -605,6 +679,9 @@ body.dark #cm p, body.dark #dw p {
 }
 body.dark #dg, body.dark #dm {
   background: #a8a8a8;
+}
+body.dark #dg h2, body.dark #dm h2 {
+  color: black;
 }
 
 /*  MENU  */

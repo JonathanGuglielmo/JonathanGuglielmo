@@ -28,6 +28,9 @@
     background-color: nth($colores1, 1);    
     body.dark & {
         background: nth($colores1, 6);
+        h6 {
+            color: white;
+        }
         p {
             color: rgb(187, 187, 187);
         }
@@ -47,6 +50,9 @@
     justify-content: center;
     background-color: nth($colores1, 2);
     body.dark & {
+        h2 {
+            color: black;
+        }
         background: nth($colores2, 3);
     }
 }

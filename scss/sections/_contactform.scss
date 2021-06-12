@@ -15,10 +15,7 @@
     body.dark & {
         background: rgb(63, 63, 63);
         h1 {
-            color: rgb(187, 187, 187);
-        p {
-            color: rgb(187, 187, 187);
-        }
+            color: white;
         }
     }
 }
@@ -36,6 +33,7 @@ input{
     margin-bottom: 20px; 
     body.dark & {
         background: rgb(63, 63, 63);
+        border-color: white;
     }
 }
 
@@ -53,6 +51,7 @@ textarea{
     padding-top: 15px; 
     body.dark & {
         background: rgb(63, 63, 63);
+        border-color: white;
     }
 }
 
@@ -81,6 +80,10 @@ label{
         transform: scale(1.1);
         background-color: nth($colores1, 2); 
     }
+    body.dark & {
+        background: rgb(71, 71, 71);
+        border-color: white;
+        }
 }
 
 span{
@@ -110,4 +113,19 @@ span{
     outline:0;
     border: 1px solid nth($colores2, 5); ;
 
+}
+
+.formulario {
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+    body.dark & {
+        p {
+            color: white;
+        }
+        h3 {
+            color: rgb(187, 187, 187);
+        }
+    }
 }
