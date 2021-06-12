@@ -568,6 +568,9 @@ header {
   background: none;
   color: #fff;
 }
+.switch i {
+  vertical-align: middle;
+}
 
 .burbuja {
   width: 100px;
