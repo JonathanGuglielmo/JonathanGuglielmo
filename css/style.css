@@ -40,7 +40,7 @@ h6 {
 }
 
 p {
-  font-size: 0.7em;
+  font-size: 0.9em;
   color: #0e0e0e;
 }
 
@@ -308,10 +308,10 @@ label {
   width: 7em;
   cursor: pointer;
 }
-button p {
+.boton p {
   color: #fff;
 }
-button:hover {
+.boton:hover {
   transform: scale(1.1);
   background-color: #eb8b8d;
 }
@@ -461,6 +461,7 @@ ul {
 /* Body */
 body {
   background-color: whitesmoke;
+  font-size: 1.1em;
 }
 
 .shark-logo {
@@ -498,6 +499,31 @@ button p {
   margin-bottom: 8em;
 }
 
+header, .footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cm, #dw {
+  display: flex;
+  justify-content: center;
+  background-color: #84c4e8;
+}
+
+.cm-container, .dg-container, .dm-container, .dw-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 768px;
+}
+
+#dg, #dm {
+  display: flex;
+  justify-content: center;
+  background-color: #eb8b8d;
+}
+
 /*  MENU  */
 header {
   color: white;
@@ -523,6 +549,16 @@ header {
   background-color: #84c4e8;
   border-color: white;
   color: white;
+}
+
+.switch {
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
 }
 
 .burbuja {
