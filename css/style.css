@@ -275,7 +275,7 @@ body.dark #dm, body.dark #dg {
   text-align: center;
 }
 body.dark .contact_form {
-  background: #a8a8a8;
+  background: #3f3f3f;
 }
 
 input {
@@ -291,7 +291,7 @@ input {
   margin-bottom: 20px;
 }
 body.dark input {
-  background: #a8a8a8;
+  background: #3f3f3f;
 }
 
 textarea {
@@ -308,7 +308,7 @@ textarea {
   padding-top: 15px;
 }
 body.dark textarea {
-  background: #a8a8a8;
+  background: #3f3f3f;
 }
 
 label {
@@ -348,11 +348,11 @@ span {
 }
 
 ::-webkit-input-placeholder {
-  color: #a8a8a8;
+  color: #3f3f3f;
 }
 
 ::-webkit-textarea-placeholder {
-  color: #a8a8a8;
+  color: #3f3f3f;
 }
 
 .formulario input:focus {
@@ -550,7 +550,7 @@ button p {
 }
 
 body.dark .pwhite {
-  color: #a8a8a8;
+  color: #3f3f3f;
 }
 
 header, .footer {

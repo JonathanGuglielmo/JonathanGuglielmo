@@ -13,7 +13,7 @@
     background-color: nth($colores1, 3); 
     text-align: center;
     body.dark & {
-        background: nth($colores2, 3);
+        background: rgb(63, 63, 63);
     }
 }
 
@@ -29,7 +29,7 @@ input{
     padding-left: 10px;
     margin-bottom: 20px; 
     body.dark & {
-        background: nth($colores2, 3);
+        background: rgb(63, 63, 63);
     }
 }
 
@@ -46,7 +46,7 @@ textarea{
     margin-bottom: 20px; 
     padding-top: 15px; 
     body.dark & {
-        background: nth($colores2, 3);
+        background: rgb(63, 63, 63);
     }
 }
 
@@ -87,11 +87,11 @@ span{
 }
 
 ::-webkit-input-placeholder {
-    color: nth($colores2, 3); 
+    color: rgb(63, 63, 63);
 }
 
 ::-webkit-textarea-placeholder {
-    color: nth($colores2, 3); 
+    color: rgb(63, 63, 63);
 }
 
 .formulario input:focus{

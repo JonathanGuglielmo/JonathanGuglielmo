@@ -58,6 +58,6 @@ button p {
 
 .pwhite {
     body.dark & {
-        color: nth($colores2, 3);
+        color: rgb(63, 63, 63);
     }
 }
