@@ -64,7 +64,7 @@
     bottom: 100vh;
     animation: burbujas 3s linear infinite;
     &.dark {
-        background: nth($colores2, 3);
+        background: #777;
         }
     }
 
