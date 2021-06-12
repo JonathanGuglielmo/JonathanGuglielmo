@@ -63,6 +63,9 @@
     position: absolute;
     bottom: 100vh;
     animation: burbujas 3s linear infinite;
+    &.dark {
+        background: nth($colores2, 3);
+        }
     }
 
 .burbuja:nth-child(1) {

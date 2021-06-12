@@ -737,6 +737,9 @@ header.dark {
   bottom: 100vh;
   animation: burbujas 3s linear infinite;
 }
+.burbuja.dark {
+  background: #a8a8a8;
+}
 
 .burbuja:nth-child(1) {
   width: 80px;
