@@ -529,6 +529,9 @@ header {
   color: white;
   background-color: #84c4e8;
 }
+header.dark {
+  background: #000;
+}
 
 .bg-light {
   background-color: #84c4e8 !important;
