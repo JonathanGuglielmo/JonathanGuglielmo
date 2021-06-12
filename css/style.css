@@ -560,6 +560,14 @@ header {
   display: flex;
   outline: none;
 }
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
 
 .burbuja {
   width: 100px;
