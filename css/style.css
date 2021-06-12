@@ -878,6 +878,9 @@ body.dark .switch .container-fluid {
 .dg:hover {
   transform: scale(1.1);
 }
+body.dark .dg {
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.212);
+}
 
 .dw {
   z-index: 2;
@@ -885,6 +888,9 @@ body.dark .switch .container-fluid {
 }
 .dw:hover {
   transform: scale(1.1);
+}
+body.dark .dw {
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.212);
 }
 
 .dm {
@@ -895,6 +901,9 @@ body.dark .switch .container-fluid {
 .dm:hover {
   transform: scale(1.1);
 }
+body.dark .dm {
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.212);
+}
 
 .cm {
   z-index: 2;
@@ -902,6 +911,9 @@ body.dark .switch .container-fluid {
 }
 .cm:hover {
   transform: scale(1.1);
+}
+body.dark .cm {
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.212);
 }
 
 /* Fondo animado */
