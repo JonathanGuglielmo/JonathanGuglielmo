@@ -658,12 +658,10 @@ body.dark .dropdown-menu {
 .switch i {
   vertical-align: middle;
 }
-
-body.dark .container {
+body.dark .switch .container {
   background: black;
 }
-
-body.dark .container-fluid {
+body.dark .switch .container-fluid {
   background: black;
 }
 

@@ -85,16 +85,17 @@ header {
     i {
         vertical-align: middle;
     }
-}
-
-.container {
-    body.dark & {
-        background: nth($colores1, 6);
+    .container {
+        body.dark & {
+            background: nth($colores1, 6);
+        }
+    }
+    
+    .container-fluid {
+        body.dark & {
+            background: nth($colores1, 6);
+        }
     }
 }
 
-.container-fluid {
-    body.dark & {
-        background: nth($colores1, 6);
-    }
-}
+
