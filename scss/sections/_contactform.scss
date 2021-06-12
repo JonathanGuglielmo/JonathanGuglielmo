@@ -94,9 +94,15 @@ span{
 .formulario input:focus{
     outline:0;
     border: 1px solid nth($colores2, 4); 
+    body.dark & {
+        background: nth($colores2, 3);
+    }
 }
 
 .formulario textarea:focus{
     outline:0;
     border: 1px solid nth($colores2, 5); ;
+    body.dark & {
+        background: nth($colores2, 3);
+    }
 }
