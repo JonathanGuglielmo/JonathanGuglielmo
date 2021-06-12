@@ -8,13 +8,13 @@ header {
     color: nth($colores1, 5); 
     @extend %flexbox1;
     background-color: $bg-color-lb;
-    &.dark {
+    body.dark & {
         background: nth($colores1, 6);
     }
 }
 .bg-light {
     background-color: $bg-color-lb !important;
-    &.dark {
+    body.dark & {
         background: nth($colores1, 6);
     }
 }
@@ -28,18 +28,18 @@ header {
 .navbar-light .navbar-nav .nav-link {
     display: inline-block;
     color: nth($colores1, 5); 
-    &.dark {
-        background: nth($colores2, 3);
-        }
+    body.dark & {
+        background: nth($colores1, 6);
+    }
 }
 
 .dropdown-menu {
     background-color: $bg-color-lb;
     border-color: $border-white;
     color: nth($colores1, 5); 
-    &.dark {
-        background: nth($colores2, 3);
-        }
+    body.dark & {
+        background: nth($colores1, 6);
+    }
 }
 
 // --- Swithc --- //

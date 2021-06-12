@@ -582,14 +582,14 @@ header {
   color: white;
   background-color: #84c4e8;
 }
-header.dark {
+body.dark header {
   background: black;
 }
 
 .bg-light {
   background-color: #84c4e8 !important;
 }
-.bg-light.dark {
+body.dark .bg-light {
   background: black;
 }
 
@@ -603,8 +603,8 @@ header.dark {
   display: inline-block;
   color: white;
 }
-.navbar-light .navbar-nav .nav-link.dark {
-  background: #a8a8a8;
+body.dark .navbar-light .navbar-nav .nav-link {
+  background: black;
 }
 
 .dropdown-menu {
@@ -612,8 +612,8 @@ header.dark {
   border-color: white;
   color: white;
 }
-.dropdown-menu.dark {
-  background: #a8a8a8;
+body.dark .dropdown-menu {
+  background: black;
 }
 
 .switch {
