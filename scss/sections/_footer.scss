@@ -25,6 +25,7 @@ li {
 }
 
 .derechos {
+    transition: .3s ease all;
     body.dark & {
         p {
             color: white;

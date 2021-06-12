@@ -191,6 +191,7 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark #dw, body.dark #cm {
   background: black;
@@ -214,6 +215,7 @@ body.dark #dw p, body.dark #cm p {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+  transition: 0.3s ease all;
 }
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
@@ -242,6 +244,7 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark #dw, body.dark #cm {
   background: black;
@@ -265,6 +268,7 @@ body.dark #dw p, body.dark #cm p {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+  transition: 0.3s ease all;
 }
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
@@ -412,6 +416,7 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark #dw, body.dark #cm {
   background: black;
@@ -435,6 +440,7 @@ body.dark #dw p, body.dark #cm p {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+  transition: 0.3s ease all;
 }
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
@@ -459,6 +465,7 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark #dw, body.dark #cm {
   background: black;
@@ -482,6 +489,7 @@ body.dark #dw p, body.dark #cm p {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+  transition: 0.3s ease all;
 }
 body.dark #dm, body.dark #dg {
   background: #a8a8a8;
@@ -506,6 +514,7 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark #dw, body.dark #cm {
   background: black;
@@ -529,6 +538,7 @@ body.dark #dw p, body.dark #cm p {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+  transition: 0.3s ease all;
 }
 body.dark #dg, body.dark #dm {
   background: #a8a8a8;
@@ -553,6 +563,7 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark #cm, body.dark #dw {
   background: black;
@@ -576,6 +587,7 @@ body.dark #cm p, body.dark #dw p {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+  transition: 0.3s ease all;
 }
 body.dark #dg, body.dark #dm {
   background: #a8a8a8;
@@ -612,6 +624,9 @@ li {
   text-decoration: none;
 }
 
+.derechos {
+  transition: 0.3s ease all;
+}
 body.dark .derechos p {
   color: white;
 }
@@ -677,6 +692,7 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark #cm, body.dark #dw {
   background: black;
@@ -700,6 +716,7 @@ body.dark #cm p, body.dark #dw p {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+  transition: 0.3s ease all;
 }
 body.dark #dg, body.dark #dm {
   background: #a8a8a8;
@@ -718,12 +735,19 @@ body.dark #dg .boton p, body.dark #dm .boton p {
 header {
   color: white;
   background-color: #84c4e8;
+  transition: 0.3s ease all;
 }
 body.dark header {
   background: black;
 }
+header .container {
+  transition: 0.3s ease all;
+}
 body.dark header .container {
   background: black;
+}
+header .container-fluid {
+  transition: 0.3s ease all;
 }
 body.dark header .container-fluid {
   background: black;
@@ -731,6 +755,7 @@ body.dark header .container-fluid {
 
 .bg-light {
   background-color: #84c4e8 !important;
+  transition: 0.3s ease all;
 }
 body.dark .bg-light {
   background: black !important;
@@ -753,6 +778,7 @@ body.dark .bg-light {
 .navbar-light .navbar-nav .nav-link {
   display: inline-block;
   color: white;
+  transition: 0.3s ease all;
 }
 body.dark .navbar-light .navbar-nav .nav-link {
   background: black;
@@ -762,6 +788,7 @@ body.dark .navbar-light .navbar-nav .nav-link {
   background-color: #84c4e8;
   border-color: white;
   color: white;
+  transition: 0.3s ease all;
 }
 body.dark .dropdown-menu {
   background: black;
@@ -894,6 +921,7 @@ body.dark .switch .container-fluid {
   position: absolute;
   bottom: 100vh;
   animation: burbujas 3s linear infinite;
+  transition: 0.3s ease all;
 }
 body.dark .burbuja {
   background: #a8a8a8;

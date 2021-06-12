@@ -63,6 +63,7 @@
     position: absolute;
     bottom: 100vh;
     animation: burbujas 3s linear infinite;
+    transition: .3s ease all;
     body.dark & {
         background: nth($colores2, 3);
     }
