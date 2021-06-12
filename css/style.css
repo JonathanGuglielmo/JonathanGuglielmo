@@ -308,15 +308,15 @@ label {
   width: 7em;
   cursor: pointer;
 }
+.boton.dark {
+  background: #a8a8a8;
+}
 .boton p {
   color: #fff;
 }
 .boton:hover {
   transform: scale(1.1);
   background-color: #eb8b8d;
-}
-.boton.dark {
-  background: #a8a8a8;
 }
 
 span {
