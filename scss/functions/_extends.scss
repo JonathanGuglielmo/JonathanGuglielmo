@@ -28,6 +28,9 @@
     background-color: nth($colores1, 1);    
     body.dark & {
         background: nth($colores1, 6);
+        p {
+            color: rgb(63, 63, 63);;
+        }
     }
 }
 
