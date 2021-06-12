@@ -283,6 +283,12 @@ body.dark #dm, body.dark #dg {
 body.dark .contact_form {
   background: #3f3f3f;
 }
+body.dark .contact_form h1 {
+  color: #bbbbbb;
+}
+body.dark .contact_form h1 p {
+  color: #bbbbbb;
+}
 
 input {
   background-color: #fbfbfb;
