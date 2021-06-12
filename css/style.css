@@ -585,6 +585,12 @@ header {
 body.dark header {
   background: black;
 }
+body.dark header .container {
+  background: black;
+}
+body.dark header .container-fluid {
+  background: black;
+}
 
 .bg-light {
   background-color: #84c4e8 !important;

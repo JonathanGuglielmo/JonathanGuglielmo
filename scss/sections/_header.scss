@@ -11,6 +11,17 @@ header {
     body.dark & {
         background: nth($colores1, 6);
     }
+    .container {
+        body.dark & {
+            background: nth($colores1, 6);
+        }
+    }
+    
+    .container-fluid {
+        body.dark & {
+            background: nth($colores1, 6);
+        }
+    }
 }
 .bg-light {
     background-color: $bg-color-lb !important;
