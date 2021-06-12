@@ -598,6 +598,9 @@ body.dark .derechos p {
   padding: 0;
   width: auto;
 }
+*.dark {
+  background: black;
+}
 
 /* Body */
 body {
@@ -932,6 +935,9 @@ body.dark .burbuja {
   text-align: center;
   font-size: 30px;
   z-index: 100;
+}
+body.dark .whatsapp {
+  background: grey;
 }
 
 .whatsapp-icon {
