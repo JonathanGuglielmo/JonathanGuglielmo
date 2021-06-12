@@ -27,7 +27,7 @@
     justify-content: center;
     background-color: nth($colores1, 1);    
     body.dark & {
-        background: nth($colores2, 3);
+        background: nth($colores1, 6);
     }
 }
 
@@ -44,6 +44,6 @@
     justify-content: center;
     background-color: nth($colores1, 2);
     body.dark & {
-        background: nth($colores1, 6);
+        background: nth($colores2, 3);
     }
 }

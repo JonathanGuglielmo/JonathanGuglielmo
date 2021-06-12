@@ -205,7 +205,7 @@ header, .footer {
   background-color: #84c4e8;
 }
 body.dark #dw, body.dark #cm {
-  background: #a8a8a8;
+  background: black;
 }
 
 .dw-container, .dm-container, .dg-container, .cm-container {
@@ -222,7 +222,7 @@ body.dark #dw, body.dark #cm {
   background-color: #eb8b8d;
 }
 body.dark #dm, body.dark #dg {
-  background: black;
+  background: #a8a8a8;
 }
 
 /* Carrouel de Imagenes */
@@ -241,7 +241,7 @@ header, .footer {
   background-color: #84c4e8;
 }
 body.dark #dw, body.dark #cm {
-  background: #a8a8a8;
+  background: black;
 }
 
 .dw-container, .dm-container, .dg-container, .cm-container {
@@ -258,7 +258,7 @@ body.dark #dw, body.dark #cm {
   background-color: #eb8b8d;
 }
 body.dark #dm, body.dark #dg {
-  background: black;
+  background: #a8a8a8;
 }
 
 /* Comunnity Manager */
@@ -373,7 +373,7 @@ header, .footer {
   background-color: #84c4e8;
 }
 body.dark #dw, body.dark #cm {
-  background: #a8a8a8;
+  background: black;
 }
 
 .dw-container, .dm-container, .dg-container, .cm-container {
@@ -390,7 +390,7 @@ body.dark #dw, body.dark #cm {
   background-color: #eb8b8d;
 }
 body.dark #dm, body.dark #dg {
-  background: black;
+  background: #a8a8a8;
 }
 
 /* Diseño Gráfico */
@@ -405,7 +405,7 @@ header, .footer {
   background-color: #84c4e8;
 }
 body.dark #dw, body.dark #cm {
-  background: #a8a8a8;
+  background: black;
 }
 
 .dw-container, .dm-container, .cm-container, .dg-container {
@@ -422,7 +422,7 @@ body.dark #dw, body.dark #cm {
   background-color: #eb8b8d;
 }
 body.dark #dm, body.dark #dg {
-  background: black;
+  background: #a8a8a8;
 }
 
 /* Diseño Multimedia */
@@ -437,7 +437,7 @@ header, .footer {
   background-color: #84c4e8;
 }
 body.dark #dw, body.dark #cm {
-  background: #a8a8a8;
+  background: black;
 }
 
 .dw-container, .cm-container, .dg-container, .dm-container {
@@ -454,7 +454,7 @@ body.dark #dw, body.dark #cm {
   background-color: #eb8b8d;
 }
 body.dark #dg, body.dark #dm {
-  background: black;
+  background: #a8a8a8;
 }
 
 /* Diseño Web */
@@ -469,7 +469,7 @@ header, .footer {
   background-color: #84c4e8;
 }
 body.dark #cm, body.dark #dw {
-  background: #a8a8a8;
+  background: black;
 }
 
 .cm-container, .dg-container, .dm-container, .dw-container {
@@ -486,7 +486,7 @@ body.dark #cm, body.dark #dw {
   background-color: #eb8b8d;
 }
 body.dark #dg, body.dark #dm {
-  background: black;
+  background: #a8a8a8;
 }
 
 /* Footer */
@@ -557,7 +557,7 @@ header, .footer {
   background-color: #84c4e8;
 }
 body.dark #cm, body.dark #dw {
-  background: #a8a8a8;
+  background: black;
 }
 
 .cm-container, .dg-container, .dm-container, .dw-container {
@@ -574,7 +574,7 @@ body.dark #cm, body.dark #dw {
   background-color: #eb8b8d;
 }
 body.dark #dg, body.dark #dm {
-  background: black;
+  background: #a8a8a8;
 }
 
 /*  MENU  */
@@ -746,8 +746,8 @@ body.dark .container-fluid {
   bottom: 100vh;
   animation: burbujas 3s linear infinite;
 }
-.burbuja.dark {
-  background: #777;
+body.dark .burbuja {
+  background: #a8a8a8;
 }
 
 .burbuja:nth-child(1) {
