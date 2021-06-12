@@ -659,6 +659,14 @@ body.dark .dropdown-menu {
   vertical-align: middle;
 }
 
+body.dark .container {
+  background: black;
+}
+
+body.dark .container-fluid {
+  background: black;
+}
+
 .burbuja {
   width: 100px;
 }
