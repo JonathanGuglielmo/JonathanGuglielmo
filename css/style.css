@@ -530,7 +530,7 @@ header {
   background-color: #84c4e8;
 }
 header.dark {
-  background: #000;
+  background: black;
 }
 
 .bg-light {

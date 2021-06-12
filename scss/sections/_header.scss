@@ -9,7 +9,7 @@ header {
     @extend %flexbox1;
     background-color: $bg-color-lb;
     &.dark {
-        background: #000;
+        background: nth($colores1, 6);
     }
 }
 .bg-light {
