@@ -290,6 +290,9 @@ input {
   padding-left: 10px;
   margin-bottom: 20px;
 }
+body.dark input {
+  background: #a8a8a8;
+}
 
 textarea {
   background-color: #fbfbfb;
@@ -356,16 +359,10 @@ span {
   outline: 0;
   border: 1px solid #85f101;
 }
-body.dark .formulario input:focus {
-  background: #a8a8a8;
-}
 
 .formulario textarea:focus {
   outline: 0;
   border: 1px solid #97d848;
-}
-body.dark .formulario textarea:focus {
-  background: #a8a8a8;
 }
 
 header, .footer {
