@@ -26,7 +26,7 @@ header {
 .bg-light {
     background-color: $bg-color-lb !important;
     body.dark & {
-        background: nth($colores1, 6);
+        background: nth($colores1, 6)!important;
     }
 }
 

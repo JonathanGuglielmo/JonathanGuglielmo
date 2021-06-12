@@ -733,7 +733,7 @@ body.dark header .container-fluid {
   background-color: #84c4e8 !important;
 }
 body.dark .bg-light {
-  background: black;
+  background: black !important;
 }
 
 .logo {
