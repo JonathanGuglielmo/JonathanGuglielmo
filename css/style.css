@@ -156,18 +156,6 @@ p {
     padding-bottom: 3px;
   }
 
-  input {
-    width: 30em;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-  }
-
-  textarea {
-    width: 30em;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-  }
-
   .footer-menu {
     list-style: none;
   }
@@ -211,7 +199,7 @@ body.dark #dw h6, body.dark #cm h6 {
   color: white;
 }
 body.dark #dw p, body.dark #cm p {
-  color: #bbbbbb;
+  color: white;
 }
 
 .dw-container, .dm-container, .dg-container, .cm-container {
@@ -232,6 +220,9 @@ body.dark #dm, body.dark #dg {
 }
 body.dark #dm h2, body.dark #dg h2 {
   color: black;
+}
+body.dark #dm p, body.dark #dg p {
+  color: white;
 }
 
 /* Carrouel de Imagenes */
@@ -256,7 +247,7 @@ body.dark #dw h6, body.dark #cm h6 {
   color: white;
 }
 body.dark #dw p, body.dark #cm p {
-  color: #bbbbbb;
+  color: white;
 }
 
 .dw-container, .dm-container, .dg-container, .cm-container {
@@ -277,6 +268,9 @@ body.dark #dm, body.dark #dg {
 }
 body.dark #dm h2, body.dark #dg h2 {
   color: black;
+}
+body.dark #dm p, body.dark #dg p {
+  color: white;
 }
 
 /* Comunnity Manager */
@@ -420,7 +414,7 @@ body.dark #dw h6, body.dark #cm h6 {
   color: white;
 }
 body.dark #dw p, body.dark #cm p {
-  color: #bbbbbb;
+  color: white;
 }
 
 .dw-container, .dm-container, .dg-container, .cm-container {
@@ -442,6 +436,9 @@ body.dark #dm, body.dark #dg {
 body.dark #dm h2, body.dark #dg h2 {
   color: black;
 }
+body.dark #dm p, body.dark #dg p {
+  color: white;
+}
 
 /* Diseño Gráfico */
 header, .footer {
@@ -461,7 +458,7 @@ body.dark #dw h6, body.dark #cm h6 {
   color: white;
 }
 body.dark #dw p, body.dark #cm p {
-  color: #bbbbbb;
+  color: white;
 }
 
 .dw-container, .dm-container, .cm-container, .dg-container {
@@ -483,6 +480,9 @@ body.dark #dm, body.dark #dg {
 body.dark #dm h2, body.dark #dg h2 {
   color: black;
 }
+body.dark #dm p, body.dark #dg p {
+  color: white;
+}
 
 /* Diseño Multimedia */
 header, .footer {
@@ -502,7 +502,7 @@ body.dark #dw h6, body.dark #cm h6 {
   color: white;
 }
 body.dark #dw p, body.dark #cm p {
-  color: #bbbbbb;
+  color: white;
 }
 
 .dw-container, .cm-container, .dg-container, .dm-container {
@@ -524,6 +524,9 @@ body.dark #dg, body.dark #dm {
 body.dark #dg h2, body.dark #dm h2 {
   color: black;
 }
+body.dark #dg p, body.dark #dm p {
+  color: white;
+}
 
 /* Diseño Web */
 header, .footer {
@@ -543,7 +546,7 @@ body.dark #cm h6, body.dark #dw h6 {
   color: white;
 }
 body.dark #cm p, body.dark #dw p {
-  color: #bbbbbb;
+  color: white;
 }
 
 .cm-container, .dg-container, .dm-container, .dw-container {
@@ -564,6 +567,9 @@ body.dark #dg, body.dark #dm {
 }
 body.dark #dg h2, body.dark #dm h2 {
   color: black;
+}
+body.dark #dg p, body.dark #dm p {
+  color: white;
 }
 
 /* Footer */
@@ -664,7 +670,7 @@ body.dark #cm h6, body.dark #dw h6 {
   color: white;
 }
 body.dark #cm p, body.dark #dw p {
-  color: #bbbbbb;
+  color: white;
 }
 
 .cm-container, .dg-container, .dm-container, .dw-container {
@@ -685,6 +691,9 @@ body.dark #dg, body.dark #dm {
 }
 body.dark #dg h2, body.dark #dm h2 {
   color: black;
+}
+body.dark #dg p, body.dark #dm p {
+  color: white;
 }
 
 /*  MENU  */

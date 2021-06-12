@@ -32,7 +32,7 @@
             color: white;
         }
         p {
-            color: rgb(187, 187, 187);
+            color: white;
         }
     }
 }
@@ -52,6 +52,9 @@
     body.dark & {
         h2 {
             color: black;
+        }
+        p {
+            color: white;
         }
         background: nth($colores2, 3);
     }
