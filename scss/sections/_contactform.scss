@@ -11,6 +11,9 @@
     padding-bottom: 20px;  
     background-color: nth($colores1, 3); 
     text-align: center;
+    &.dark {
+        background: nth($colores2, 3);
+        }
 }
 
 input{
@@ -58,9 +61,6 @@ label{
     border-radius: 10px;  
     width: 7em;   
     cursor: pointer;
-        &.dark {
-        background: nth($colores2, 3);
-        }
         p{
         color: nth($colores1, 7);  
         }

@@ -261,6 +261,9 @@ header, .footer {
   background-color: #fbfbfb;
   text-align: center;
 }
+.contact_form.dark {
+  background: #a8a8a8;
+}
 
 input {
   background-color: #fbfbfb;
@@ -307,9 +310,6 @@ label {
   border-radius: 10px;
   width: 7em;
   cursor: pointer;
-}
-.boton.dark {
-  background: #a8a8a8;
 }
 .boton p {
   color: #fff;
