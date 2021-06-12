@@ -294,7 +294,7 @@ label {
   float: center;
 }
 
-button {
+.boton {
   height: 45px;
   padding-left: 5px;
   padding-right: 5px;
