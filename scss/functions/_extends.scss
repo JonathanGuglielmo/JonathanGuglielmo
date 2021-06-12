@@ -23,7 +23,10 @@
 %flexbox2 {
     display: flex;
     justify-content: center;
-    background-color: nth($colores1, 1);
+    background-color: nth($colores1, 1);    
+        &.dark {
+        background: nth($colores2, 3);
+        }
 }
 
 %flexbox3 {
@@ -38,4 +41,7 @@
     display: flex;
     justify-content: center;
     background-color: nth($colores1, 2);
+    &.dark {
+        background: nth($colores1, 6);
+        }
 }

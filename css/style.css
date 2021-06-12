@@ -204,6 +204,9 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
+.dark#dw, .dark#cm {
+  background: #a8a8a8;
+}
 
 .dw-container, .dm-container, .dg-container, .cm-container {
   display: flex;
@@ -217,6 +220,9 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+}
+.dark#dm, .dark#dg {
+  background: black;
 }
 
 /* Carrouel de Imagenes */
@@ -234,6 +240,9 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
+.dark#dw, .dark#cm {
+  background: #a8a8a8;
+}
 
 .dw-container, .dm-container, .dg-container, .cm-container {
   display: flex;
@@ -247,6 +256,9 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+}
+.dark#dm, .dark#dg {
+  background: black;
 }
 
 /* Comunnity Manager */
@@ -360,6 +372,9 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
+.dark#dw, .dark#cm {
+  background: #a8a8a8;
+}
 
 .dw-container, .dm-container, .dg-container, .cm-container {
   display: flex;
@@ -374,6 +389,9 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
+.dark#dm, .dark#dg {
+  background: black;
+}
 
 /* Diseño Gráfico */
 header, .footer {
@@ -385,6 +403,9 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+}
+.dark#dw, .dark#cm {
+  background: #a8a8a8;
 }
 
 .dw-container, .dm-container, .cm-container, .dg-container {
@@ -400,6 +421,9 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
+.dark#dm, .dark#dg {
+  background: black;
+}
 
 /* Diseño Multimedia */
 header, .footer {
@@ -411,6 +435,9 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+}
+.dark#dw, .dark#cm {
+  background: #a8a8a8;
 }
 
 .dw-container, .cm-container, .dg-container, .dm-container {
@@ -426,6 +453,9 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
+.dark#dg, .dark#dm {
+  background: black;
+}
 
 /* Diseño Web */
 header, .footer {
@@ -437,6 +467,9 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #84c4e8;
+}
+.dark#cm, .dark#dw {
+  background: #a8a8a8;
 }
 
 .cm-container, .dg-container, .dm-container, .dw-container {
@@ -451,6 +484,9 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+}
+.dark#dg, .dark#dm {
+  background: black;
 }
 
 /* Footer */
@@ -519,6 +555,9 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
+.dark#cm, .dark#dw {
+  background: #a8a8a8;
+}
 
 .cm-container, .dg-container, .dm-container, .dw-container {
   display: flex;
@@ -532,6 +571,9 @@ header, .footer {
   display: flex;
   justify-content: center;
   background-color: #eb8b8d;
+}
+.dark#dg, .dark#dm {
+  background: black;
 }
 
 /*  MENU  */
