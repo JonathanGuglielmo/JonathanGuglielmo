@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     height: auto;;
+    margin-top: 2em;
     border-radius: 10px;  
     padding-top: 30px;
     padding-bottom: 20px;  
@@ -41,6 +42,9 @@ textarea{
     padding-left: 10px;
     margin-bottom: 20px; 
     padding-top: 15px; 
+    &.dark {
+        background: nth($colores2, 3);
+        }
 }
 
 label{
