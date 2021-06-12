@@ -560,11 +560,17 @@ header.dark {
   display: inline-block;
   color: white;
 }
+.navbar-light .navbar-nav .nav-link.dark {
+  background: #a8a8a8;
+}
 
 .dropdown-menu {
   background-color: #84c4e8;
   border-color: white;
   color: white;
+}
+.dropdown-menu.dark {
+  background: #a8a8a8;
 }
 
 .switch {

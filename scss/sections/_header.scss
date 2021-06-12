@@ -28,12 +28,18 @@ header {
 .navbar-light .navbar-nav .nav-link {
     display: inline-block;
     color: nth($colores1, 5); 
+    &.dark {
+        background: nth($colores2, 3);
+        }
 }
 
 .dropdown-menu {
     background-color: $bg-color-lb;
     border-color: $border-white;
     color: nth($colores1, 5); 
+    &.dark {
+        background: nth($colores2, 3);
+        }
 }
 
 // --- Swithc --- //
