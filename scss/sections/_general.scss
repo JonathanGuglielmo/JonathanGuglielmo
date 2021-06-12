@@ -55,3 +55,9 @@ button p {
     margin-top: 8em;
     margin-bottom: 8em;
 }
+
+.pwhite {
+    body.dark & {
+        background: nth($colores2, 3);
+    }
+}

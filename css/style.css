@@ -549,6 +549,10 @@ button p {
   margin-bottom: 8em;
 }
 
+body.dark .pwhite {
+  background: #a8a8a8;
+}
+
 header, .footer {
   display: flex;
   justify-content: space-around;
