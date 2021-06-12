@@ -1,3 +1,4 @@
+@import '../base/colors';
 
 /* Ajustes generales */
 
@@ -13,6 +14,9 @@
 body {
     background-color: nth($colores1, 4);
     font-size: 1.1em; 
+    &.dark {
+        background: nth($colores1, 6);
+    }
 }
 
 .shark-logo {

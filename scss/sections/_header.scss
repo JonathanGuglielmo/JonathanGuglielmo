@@ -14,6 +14,9 @@ header {
 }
 .bg-light {
     background-color: $bg-color-lb !important;
+    &.dark {
+        background: nth($colores1, 6);
+    }
 }
 
 .logo {

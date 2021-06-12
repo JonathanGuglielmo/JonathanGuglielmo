@@ -463,6 +463,9 @@ body {
   background-color: whitesmoke;
   font-size: 1.1em;
 }
+body.dark {
+  background: black;
+}
 
 .shark-logo {
   width: 40%;
@@ -535,6 +538,9 @@ header.dark {
 
 .bg-light {
   background-color: #84c4e8 !important;
+}
+.bg-light.dark {
+  background: black;
 }
 
 .logo {
