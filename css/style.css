@@ -204,7 +204,7 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
-.dark#dw, .dark#cm {
+body.dark #dw, body.dark #cm {
   background: #a8a8a8;
 }
 
@@ -221,7 +221,7 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
-.dark#dm, .dark#dg {
+body.dark #dm, body.dark #dg {
   background: black;
 }
 
@@ -240,7 +240,7 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
-.dark#dw, .dark#cm {
+body.dark #dw, body.dark #cm {
   background: #a8a8a8;
 }
 
@@ -257,7 +257,7 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
-.dark#dm, .dark#dg {
+body.dark #dm, body.dark #dg {
   background: black;
 }
 
@@ -372,7 +372,7 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
-.dark#dw, .dark#cm {
+body.dark #dw, body.dark #cm {
   background: #a8a8a8;
 }
 
@@ -389,7 +389,7 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
-.dark#dm, .dark#dg {
+body.dark #dm, body.dark #dg {
   background: black;
 }
 
@@ -404,7 +404,7 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
-.dark#dw, .dark#cm {
+body.dark #dw, body.dark #cm {
   background: #a8a8a8;
 }
 
@@ -421,7 +421,7 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
-.dark#dm, .dark#dg {
+body.dark #dm, body.dark #dg {
   background: black;
 }
 
@@ -436,7 +436,7 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
-.dark#dw, .dark#cm {
+body.dark #dw, body.dark #cm {
   background: #a8a8a8;
 }
 
@@ -453,7 +453,7 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
-.dark#dg, .dark#dm {
+body.dark #dg, body.dark #dm {
   background: black;
 }
 
@@ -468,7 +468,7 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
-.dark#cm, .dark#dw {
+body.dark #cm, body.dark #dw {
   background: #a8a8a8;
 }
 
@@ -485,7 +485,7 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
-.dark#dg, .dark#dm {
+body.dark #dg, body.dark #dm {
   background: black;
 }
 
@@ -556,7 +556,7 @@ header, .footer {
   justify-content: center;
   background-color: #84c4e8;
 }
-.dark#cm, .dark#dw {
+body.dark #cm, body.dark #dw {
   background: #a8a8a8;
 }
 
@@ -573,7 +573,7 @@ header, .footer {
   justify-content: center;
   background-color: #eb8b8d;
 }
-.dark#dg, .dark#dm {
+body.dark #dg, body.dark #dm {
   background: black;
 }
 
