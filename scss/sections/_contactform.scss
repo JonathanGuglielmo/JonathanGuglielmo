@@ -2,9 +2,17 @@
 
 /*Formulario de contacto*/
 
+#contactform {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
 .contact_form{ 
     display: flex;
     justify-content: center;
+    width: 100%;
     height: auto;;
     margin-top: 2em;
     border-radius: 10px;  
@@ -119,6 +127,7 @@ span{
     h1 {
         display: flex;
         justify-content: center;
+        transition: .3s ease all;
     }
     body.dark & {
         p {

@@ -160,6 +160,14 @@ p {
     list-style: none;
   }
 }
+input {
+  width: 35em !important;
+}
+
+textarea {
+  width: 35em !important;
+}
+
 .burbuja {
   width: 100px;
 }
@@ -285,9 +293,17 @@ body.dark #dm .boton p, body.dark #dg .boton p {
 
 /* Comunnity Manager */
 /*Formulario de contacto*/
+#contactform {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
 .contact_form {
   display: flex;
   justify-content: center;
+  width: 100%;
   height: auto;
   margin-top: 2em;
   border-radius: 10px;
@@ -399,6 +415,7 @@ span {
 .formulario h1 {
   display: flex;
   justify-content: center;
+  transition: 0.3s ease all;
 }
 body.dark .formulario p {
   color: white;
