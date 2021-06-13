@@ -5,6 +5,7 @@
 /*  MENU  */
 
 header {
+    z-index: 99999;
     color: nth($colores1, 5); 
     @extend %flexbox1;
     background-color: $bg-color-lb;
@@ -27,6 +28,7 @@ header {
     }
 }
 .bg-light {
+    z-index: 99999;
     background-color: $bg-color-lb !important;
     transition: .3s ease all;
     body.dark & {
@@ -35,14 +37,15 @@ header {
 }
 
 .logo {
+    z-index: 99999;
     vertical-align: middle;
     width: 100%;
     height: auto;
 }
 
 .navbar {
+    z-index: 99999;
     margin: auto;
-    z-index: 999;
     position: fixed;
     width: 100%;
     margin-left: -12px;
@@ -50,6 +53,7 @@ header {
 
 
 .navbar-light .navbar-nav .nav-link {
+    z-index: 99999;
     display: inline-block;
     color: nth($colores1, 5); 
     transition: .3s ease all;
@@ -59,6 +63,7 @@ header {
 }
 
 .dropdown-menu {
+    z-index: 99999;
     background-color: $bg-color-lb;
     border-color: $border-white;
     color: nth($colores1, 5);
@@ -72,6 +77,7 @@ header {
 // --- Swithc --- //
 
 .switch {
+    z-index: 99999;
     background: #343D5B;
     border-radius: 1000px;
     border: none;
