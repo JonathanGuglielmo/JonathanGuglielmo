@@ -657,10 +657,16 @@ li {
 }
 
 .derechos {
+  text-align: center;
   transition: 0.3s ease all;
 }
 body.dark .derechos p {
   color: white;
+}
+
+.logofooter {
+  width: 100%;
+  height: auto;
 }
 
 /* Ajustes generales */
@@ -672,6 +678,7 @@ body.dark .derechos p {
 
 /* Body */
 body {
+  overflow-x: hidden;
   background-color: whitesmoke;
   font-size: 1.1em;
   transition: 0.3s ease all;
@@ -768,19 +775,12 @@ header {
   z-index: 99999;
   color: white;
   background-color: #84c4e8;
-  transition: 0.3s ease all;
 }
 body.dark header {
   background: black;
 }
-header .container {
-  transition: 0.3s ease all;
-}
 body.dark header .container {
   background: black;
-}
-header .container-fluid {
-  transition: 0.3s ease all;
 }
 body.dark header .container-fluid {
   background: black;
@@ -789,7 +789,6 @@ body.dark header .container-fluid {
 .bg-light {
   z-index: 99999;
   background-color: #84c4e8 !important;
-  transition: 0.3s ease all;
 }
 body.dark .bg-light {
   background: black !important;
@@ -814,7 +813,6 @@ body.dark .bg-light {
   z-index: 99999;
   display: inline-block;
   color: white;
-  transition: 0.3s ease all;
 }
 body.dark .navbar-light .navbar-nav .nav-link {
   background: black;
@@ -825,7 +823,6 @@ body.dark .navbar-light .navbar-nav .nav-link {
   background-color: #84c4e8;
   border-color: white;
   color: white;
-  transition: 0.3s ease all;
 }
 body.dark .dropdown-menu {
   background: black;

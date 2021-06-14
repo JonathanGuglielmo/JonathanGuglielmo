@@ -25,6 +25,7 @@ li {
 }
 
 .derechos {
+    text-align: center;
     transition: .3s ease all;
     body.dark & {
         p {
@@ -32,4 +33,9 @@ li {
         }
     }
 }
+
+.logofooter {
+    width: 100%;
+    height: auto;
+} 
 

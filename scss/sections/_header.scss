@@ -9,19 +9,16 @@ header {
     color: nth($colores1, 5); 
     @extend %flexbox1;
     background-color: $bg-color-lb;
-    transition: .3s ease all;
     body.dark & {
         background: nth($colores1, 6);
     }
     .container {
-        transition: .3s ease all;
         body.dark & {
             background: nth($colores1, 6);
         }
     }
     
     .container-fluid {
-        transition: .3s ease all;
         body.dark & {
             background: nth($colores1, 6);
         }
@@ -30,7 +27,6 @@ header {
 .bg-light {
     z-index: 99999;
     background-color: $bg-color-lb !important;
-    transition: .3s ease all;
     body.dark & {
         background: nth($colores1, 6)!important;
     }
@@ -56,7 +52,6 @@ header {
     z-index: 99999;
     display: inline-block;
     color: nth($colores1, 5); 
-    transition: .3s ease all;
     body.dark & {
         background: nth($colores1, 6);
     }
@@ -67,7 +62,6 @@ header {
     background-color: $bg-color-lb;
     border-color: $border-white;
     color: nth($colores1, 5);
-    transition: .3s ease all; 
     body.dark & {
         background: nth($colores1, 6);
 
@@ -106,7 +100,7 @@ header {
             right: 0;
             left: unset;
         }
-    }
+}
     span {
         width: 30px;
         height: 30px;

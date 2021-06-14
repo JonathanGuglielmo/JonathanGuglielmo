@@ -12,6 +12,7 @@
 /* Body */
 
 body {
+    overflow-x: hidden;
     background-color: nth($colores1, 4);
     font-size: 1.1em; 
     transition: .3s ease all;
