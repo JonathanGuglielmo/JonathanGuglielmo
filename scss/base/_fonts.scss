@@ -2,11 +2,11 @@
 
 
 h1{
-  @include ha(2em);
+    @include hb(3em);
 }
 
 h2{
-    @include hb(3em);
+    @include hf(3em);
 }
 
 h3{
@@ -17,13 +17,14 @@ h4{
     @include hd(1em);
 }
 
+
 h5 {
     @include he(1em);
 }
 
 h6 {
-    @include hf(3em);
-}
+    @include ha(2em);
+}  
 
 p {
     @include p(0.9em);
