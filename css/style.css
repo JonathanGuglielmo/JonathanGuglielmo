@@ -427,7 +427,7 @@ span {
   border: 1px solid #97d848;
 }
 
-.formulario h1 {
+.formulario h6 {
   display: flex;
   justify-content: center;
   transition: 0.3s ease all;
