@@ -9,14 +9,14 @@ a través del formulario de contacto.</p>
 <h2 align="center">Instalación</h2>
 <p align="center">Una vez descargado/clonado el proyecto, paso a seguir:</p>
 
-<h3>Vincular SASS</h3>
+<h3 align="center">Vincular SASS</h3>
 
-<p align="center">- npm init (le damos enter a todo)
+<p align="left">- npm init (le damos enter a todo)
 - sass --watch scss/style.scss css/style.css</p>
 
-<h3>Pull from GIT</h3>
+<h3 align="center">Pull from GIT</h3>
 
-<p align="center">- git init
+<p align="left">- git init
 - git pull
 </p>
 
@@ -27,8 +27,8 @@ a través del formulario de contacto.</p>
 <h2 align="center">¿Donde encontrarme?</h2>
 
 
-<h3 align="center">Canales de conexión:</h3>
-<p align="center">
+<h3 align="left">Canales de conexión:</h3>
+<p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/jonathan-javier-guglielmo-2a491517a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/jonathan-javier-guglielmo-2a491517a/" height="30" width="40" /></a>
 <a href="https://fb.com/jonathan.guglielmo.ok" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jonathan.guglielmo.ok" height="30" width="40" /></a>
 <a href="https://instagram.com/jonathan.guglielmo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jonathan.guglielmo" height="30" width="40" /></a>
