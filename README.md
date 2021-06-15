@@ -9,12 +9,12 @@ a través del formulario de contacto.</p>
 <h2 align="center">Instalación</h2>
 <p align="left">Una vez descargado/clonado el proyecto, paso a seguir:</p>
 
-<h3 align="left">Vincular SASS</h3>
+<h3>Vincular SASS</h3>
 
 <p align="left">- npm init (le damos enter a todo)
 - sass --watch scss/style.scss css/style.css</p>
 
-<h3 align="left">Pull from GIT</h3>
+<h3>Pull from GIT</h3>
 
 <p align="left">- git init
 - git pull
