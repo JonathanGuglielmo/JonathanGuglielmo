@@ -687,6 +687,10 @@ body.dark .derechos p {
   width: auto;
 }
 
+.row {
+  --bs-gutter-x:0!important;
+}
+
 /* Body */
 body {
   overflow-x: hidden;
