@@ -36,6 +36,8 @@ h6 {
   font-size: 2em;
   text-align: left;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
   color: #0496eb;
 }
 

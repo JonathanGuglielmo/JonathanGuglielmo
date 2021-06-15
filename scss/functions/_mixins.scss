@@ -4,7 +4,9 @@
 @mixin ha($fsize) {
     font-size: $fsize;  
     text-align: left; 
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center; 
     color: nth($colores2, 2); 
     }
 
