@@ -18,8 +18,8 @@ a través del formulario de contacto.</p>
 <h2 align="center">¿Donde encontrarme?</h2>
 
 
-<h3 align="left">Canales de conexión:</h3>
-<p align="left">
+<h3 align="center">Canales de conexión:</h3>
+<p align="center">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/jonathan-javier-guglielmo-2a491517a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/jonathan-javier-guglielmo-2a491517a/" height="30" width="40" /></a>
 <a href="https://fb.com/jonathan.guglielmo.ok" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jonathan.guglielmo.ok" height="30" width="40" /></a>
 <a href="https://instagram.com/jonathan.guglielmo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="jonathan.guglielmo" height="30" width="40" /></a>
