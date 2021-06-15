@@ -2,7 +2,7 @@
 <h3 align="center"> Estudio de diseño gráfico, web y multimedia.</h3>
 
 <h2 align="center">Descripción del proyecto</h2>
-<p align="center">Shark Desgin es una landin page creada para convertir visitas en leads.
+<p align="center">Shark Desgin es una landing page creada para convertir visitas en leads.
 El objetivo principal es obtener potenciales clientes mediante el boton de WhatsApp o bien,
 a través del formulario de contacto.</p>
 
