@@ -7,14 +7,14 @@ El objetivo principal es obtener potenciales clientes mediante el boton de Whats
 a través del formulario de contacto.</p>
 
 <h2 align="center">Instalación</h2>
-<p align="center">Una vez descargado/clonado el proyecto, paso a seguir:</p>
+<p align="left">Una vez descargado/clonado el proyecto, paso a seguir:</p>
 
-<h3 align="center">Vincular SASS</h3>
+<h3 align="left">Vincular SASS</h3>
 
 <p align="left">- npm init (le damos enter a todo)
 - sass --watch scss/style.scss css/style.css</p>
 
-<h3 align="center">Pull from GIT</h3>
+<h3 align="left">Pull from GIT</h3>
 
 <p align="left">- git init
 - git pull
