@@ -8,6 +8,7 @@ a través del formulario de contacto.</p>
 
 <h2 align="center">Instalación</h2>
 <p align="center">Una vez descargado/clonado el proyecto, paso a seguir:
+
 * Vincular SASS
 - npm init (le damos enter a todo)
 - sass --watch scss/style.scss css/style.css
