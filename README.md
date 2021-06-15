@@ -1,5 +1,5 @@
 <h1 align="center">Shark Design</h1>
-<h3 align="center"> Estudio de diseño gráfico, web y multimedia.</h3>
+<h3 align="center">Estudio de diseño gráfico, web y multimedia.</h3>
 
 <h2 align="center">Descripción del proyecto</h2>
 <p align="center">Shark Desgin es una landing page creada para convertir visitas en leads.
@@ -9,11 +9,13 @@ a través del formulario de contacto.</p>
 <h2 align="center">Instalación</h2>
 <p align="center">Una vez descargado/clonado el proyecto, paso a seguir:
 
-* Vincular SASS
+<h3 align="center">Vincular SASS</h3>
+
 - npm init (le damos enter a todo)
 - sass --watch scss/style.scss css/style.css
 
-* Pull from GIT 
+<h3 align="center">Pull from GIT</h3>
+
 - git init
 - git pull
 </p>
