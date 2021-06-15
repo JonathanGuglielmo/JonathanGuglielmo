@@ -1,4 +1,18 @@
 @media only screen and (min-width: 300px) and (max-width: 1120px) {
+    
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+    
+    h6 {
+        margin-top: 3em;
+    }
 
     .container-fluid {
         display: flex;
@@ -77,22 +91,7 @@
             margin-top: 1em !important;
         }
     }
-    
-    p {
-        font-size: 0.8em;
-    }
-    
-    h6 {
-        margin-top: 3em;
-    }
-    
-    h1 {
-        font-size: 2.4em;
-    }
-    h2 {
-        font-size: 2.4em;
-    }
-    
+
     .dg-container {
         height: 40em !important;
     }  
