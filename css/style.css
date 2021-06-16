@@ -46,7 +46,7 @@ p {
   color: #0e0e0e;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1120px) {
+@media only screen and (min-width: 280px) and (max-width: 1120px) {
   body {
     overflow-x: auto;
   }
