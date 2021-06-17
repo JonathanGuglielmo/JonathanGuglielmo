@@ -11,17 +11,14 @@
 
 .footer-menu {
     width: 50%;
-}
-
-ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-
-li {
-    text-decoration: none;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    li {
+        text-decoration: none;
+    }
 }
 
 .derechos {

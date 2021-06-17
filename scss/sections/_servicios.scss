@@ -4,6 +4,21 @@
 
 .servicios {
     text-align: center;
+    z-index: 5;
+    margin-top: 8em;
+}
+
+.servicios2 {
+    z-index: 6;
+    text-align: center;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+.disenog {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
 }
 
 .dg {
@@ -18,8 +33,6 @@
     }
 }
 
-
-
 .dw {
     z-index: 2;
     box-shadow: 0 10px 6px -6px #777;
@@ -30,7 +43,6 @@
         box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.212);
     }
 }
-
 
 .dm {
     z-index: 2;
@@ -43,7 +55,6 @@
         box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.212);
     } 
 }
-
 
 .cm {
     z-index: 2;

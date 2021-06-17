@@ -47,7 +47,6 @@ header {
     margin-left: -12px;
 }
 
-
 .navbar-light .navbar-nav .nav-link {
     z-index: 99999;
     display: inline-block;
@@ -99,7 +98,7 @@ header {
             right: 0;
             left: unset;
         }
-}
+    }
     span {
         width: 30px;
         height: 30px;
@@ -116,7 +115,6 @@ header {
             background: nth($colores1, 6);
         }
     }
-    
     .container-fluid {
         body.dark & {
             background: nth($colores1, 6);

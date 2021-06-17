@@ -46,6 +46,7 @@ p {
   color: #0e0e0e;
 }
 
+/* Querys */
 @media only screen and (min-width: 280px) and (max-width: 1120px) {
   body {
     overflow-x: auto;
@@ -657,14 +658,12 @@ body.dark #dg .boton p, body.dark #dm .boton p {
 .footer-menu {
   width: 50%;
 }
-
-ul {
+.footer-menu ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
-
-li {
+.footer-menu li {
   text-decoration: none;
 }
 
@@ -717,25 +716,6 @@ button p {
 
 .boton {
   box-shadow: 0 6px 6px -6px #777;
-}
-
-/* Diseño Greneral */
-.disenog {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 4em;
-}
-
-.servicios {
-  z-index: 5;
-  margin-top: 8em;
-}
-
-.servicios2 {
-  z-index: 6;
-  text-align: center;
-  margin-top: 8em;
-  margin-bottom: 8em;
 }
 
 header, .footer {
@@ -919,6 +899,21 @@ body.dark .switch .container-fluid {
 /* Servicios */
 .servicios {
   text-align: center;
+  z-index: 5;
+  margin-top: 8em;
+}
+
+.servicios2 {
+  z-index: 6;
+  text-align: center;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.disenog {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4em;
 }
 
 .dg {
