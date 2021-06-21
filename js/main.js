@@ -42,5 +42,5 @@ window.sr = ScrollReveal();
 
 window.sr = ScrollReveal();
     sr.reveal ('.disenog', {
-        delay: 500,
+        delay: 300,
     });
